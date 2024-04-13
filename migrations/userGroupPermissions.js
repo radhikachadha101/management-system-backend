@@ -1,0 +1,21 @@
+const userGroupPermission = [
+	{ userGroupId: '1', routeId: '1', permissionId: '5', active: 1 },
+	{ userGroupId: '2', routeId: '3', permissionId: '1', active: 1 },
+	{ userGroupId: '2', routeId: '3', permissionId: '2', active: 1 },
+	{ userGroupId: '2', routeId: '3', permissionId: '3', active: 1 },
+	{ userGroupId: '2', routeId: '3', permissionId: '4', active: 1 },
+    { userGroupId: '2', routeId: '4', permissionId: '1', active: 1 },
+    { userGroupId: '2', routeId: '4', permissionId: '2', active: 1 },
+    { userGroupId: '2', routeId: '4', permissionId: '3', active: 1 },
+    { userGroupId: '2', routeId: '4', permissionId: '4', active: 1 },
+    { userGroupId: '2', routeId: '5', permissionId: '1', active: 1 },
+    { userGroupId: '2', routeId: '5', permissionId: '2', active: 1 },
+    { userGroupId: '2', routeId: '5', permissionId: '3', active: 1 },
+    { userGroupId: '2', routeId: '5', permissionId: '4', active: 1 },
+    { userGroupId: '2', routeId: '6', permissionId: '1', active: 1 },
+    { userGroupId: '2', routeId: '6', permissionId: '2', active: 1 },
+    { userGroupId: '2', routeId: '6', permissionId: '3', active: 1 },
+    { userGroupId: '2', routeId: '6', permissionId: '4', active: 1 },
+    { userGroupId: '3', routeId: '3', permissionId: '1', active: 1 },
+    { userGroupId: '3', routeId: '6', permissionId: '1', active: 1 },];
+module.exports = userGroupPermission;

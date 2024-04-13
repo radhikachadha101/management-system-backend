@@ -1,0 +1,38 @@
+{
+  "name": "simpleserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "db:reset": "cross-env-shell node ./migrations/reset.js"
+  },
+  "dependencies": {
+    "@casl/ability": "^5.1.1",
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.2.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.11.8",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-cron": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.5",
+    "sequelize-auto-migrations": "^1.0.3",
+    "sequelize-cli": "^6.2.0",
+    "serve-index": "^1.9.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}

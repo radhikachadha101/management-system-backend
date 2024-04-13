@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.PNG
+.pdf
+.doc
+.docx
+.jpeg
+/uploads
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/yarn.lock
+/.idea/.gitignore
+/.idea/hotswap_agent.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+/.idea/sonarlint/issuestore/2/3/23f4e0504c5d147e1f1e2f349294b341d2b27c33
+/.idea/sonarlint/issuestore/e/2/e22a93207c357646d14e7beac77db729a8bd7bd9
+/.idea/sonarlint/issuestore/e/6/e6a3a9a0b526c636c1c3972be8fed9d1f93a4ed4
+/.idea/sonarlint/issuestore/index.pb
+/.idea/vcs.xml
+/report.20200506.172616.6600.0.001.json
+/stockchain-admin.iml
+
+#env file
+.idea
+
+#log files
+*.log
